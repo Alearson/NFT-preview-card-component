@@ -25,7 +25,7 @@ p {
   color: var(--font-color);
   margin: 16px 0px;
   line-height: 24px;
-  font-weight: 300; }
+  font-weight: 400; }
 
 body {
   background: var(--main-BG);
@@ -65,9 +65,9 @@ body {
   border-radius: 16px; }
   .container__title {
     color: var(--White);
-    max-width: 210px;
+    max-width: 220px;
     margin: 16px auto 16px 0;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 26px; }
     .container__title:hover {
       color: var(--special);
