@@ -14,6 +14,13 @@
   --font-color: rgba(139, 172, 218, 0.7);
   --special: hsl(178, 100%, 50%);
 }
+html {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 p {
   color: var(--font-color);
   margin: 16px 0px;
@@ -22,7 +29,7 @@ p {
 }
 body {
   background: var(--main-BG);
-  margin: 1.2rem;
+  margin: auto;
 }
 .image__container {
   position: relative;
